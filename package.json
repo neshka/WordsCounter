@@ -1,0 +1,16 @@
+{
+  "name": "wordscounter",
+  "version": "1.0.0",
+  "description": "A simple application that reads text content from a file, counts each unique word, and prints the output into the console.",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "5.0.3"
+  }
+}
