@@ -1,4 +1,13 @@
-import * as fs from 'fs';
+import { countWords, getFileContent } from "./helpers";
 
-const fileContent = fs.readFileSync('textFiles/helloWorld.txt', 'utf-8');
-export const words = fileContent.split(/\W+/);
+const filePath = "textFile.txt";
+export function countWordsInFile(filePath: string) {
+  try {
+    const text = getFileContent(filePath);
+    console.log(countWords(text));
+  } catch (err) {
+    console.error(err);
+  }
+}
+
+countWordsInFile(filePath);
