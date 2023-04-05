@@ -9,9 +9,7 @@ counts each unique word and prints the output into the console.
    `git clone https://github.com/neshka/WordsCounter`
 2. Install dependencies:
    `npm install` (or npm i)
-3. Build the TypeScript code:
-   `npm run build`
-4. Run the application:
+3. Run the application:
    `npm start`
 
 **Counter reads the text from: textFile.txt.  
